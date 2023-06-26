@@ -1,0 +1,26 @@
+{
+  "name": "kds-socialnetwork-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeltonSterett/KDS-SocialNetwork-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeltonSterett/KDS-SocialNetwork-API/issues"
+  },
+  "homepage": "https://github.com/KeltonSterett/KDS-SocialNetwork-API#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^7.3.1"
+  }
+}
