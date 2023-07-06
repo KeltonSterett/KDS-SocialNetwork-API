@@ -1,12 +1,12 @@
 const { User, Thought } = require("../models");
 
-model.exports = {
+module.exports = {
   getUser(req, res) {
     User.find({})
       .then((user) => res.json(user))
       .catch((err) => res.status(400).json(err));
   },
-  getSingeUser(req, res) {
+  getSingleUser(req, res) {
     User.findOne({ _id: req.params.userId })
       .populate("thoughts")
       .populate("friends")
